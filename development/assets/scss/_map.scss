@@ -1,0 +1,43 @@
+.map {
+	margin-top: 150px;
+}
+
+.map__title {
+	text-align: center;
+	font-weight: 600;
+	font-size: 35px;
+}
+
+.map__description {
+	text-align: center;
+	font-weight: 400;
+	font-size: 13px;
+	margin-top: 20px;
+
+	span {
+		font-weight: 600;
+	}
+}
+
+.map__img-container {
+	display: flex;
+	justify-content: center;
+
+	.img-container__img {
+		width: 1060px;
+		height: 537.77px;
+		margin-top: 155.8px;
+	}
+}
+
+.socail-media-container {
+	margin-left: 120px;
+	margin-right: 120px;
+	margin-top: 10px;
+
+	.social-media {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+}

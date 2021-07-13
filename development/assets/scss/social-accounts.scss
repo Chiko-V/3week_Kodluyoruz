@@ -1,0 +1,132 @@
+article {
+	display: flex;
+	justify-content: center;
+	margin-top: 35px;
+}
+
+.accounts-container {
+	width: 1300px;
+	height: 598.25px;
+	margin-left: 40px;
+	margin-right: 30px;
+
+	.accounts-container__title {
+		text-align: center;
+		font-weight: 700;
+		line-height: 35px;
+		font-size: 35px;
+	}
+
+	.accounts-container__description {
+		text-align: center;
+		margin-top: 20px;
+		line-height: 30px;
+	}
+}
+
+.accounts-container__socail-accounts {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 68px;
+
+	.social-account {
+		width: 400px;
+		height: 230px;
+		border: 2px solid #dddddd;
+		border-radius: 10px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.socail-account__details {
+			width: 350px;
+			height: 180px;
+		}
+	}
+	.current {
+		border-color: #f53838;
+	}
+	.socail-account__person {
+		display: flex;
+		justify-content: space-between;
+
+		.socail-account__info {
+			width: 182px;
+			height: 50px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			p {
+				font-weight: bold;
+			}
+
+			span {
+				font-weight: normal;
+			}
+		}
+
+		.socail-account__rate {
+			width: 50px;
+			height: 46px;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+		}
+	}
+
+	.socail-account__description {
+		p {
+			margin-top: 15px;
+			line-height: 30px;
+		}
+	}
+}
+
+.accounts-container__buttons-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 60px;
+
+	.accounts-container__buttons {
+		display: flex;
+		justify-content: space-between;
+		width: 150px;
+
+		.buttons__rectangle {
+			width: 45px;
+			height: 15px;
+			background-color: #f53838;
+			border-radius: 20px;
+		}
+
+		.buttons__circle {
+			width: 15px;
+			height: 15px;
+			border-radius: 50px;
+			background-color: #dde0e4;
+		}
+	}
+
+	.accounts-container__vectors {
+		display: flex;
+		justify-content: space-between;
+		width: 130px;
+	}
+
+	.accounts-container__vector-btn {
+		width: 60px;
+		height: 60px;
+		border: 2px solid #f53838;
+		border-radius: 50px;
+		background-color: white;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.submited {
+		background-color: #f53838;
+	}
+}
